@@ -3,6 +3,20 @@ var dateElement = document.querySelector("#currentDay");
 var date = new Date ();
 date = moment().format('LL');
 dateElement.textContent = date;
+var dateColor = moment().format('h A')
+console.log(dateColor)
+
+function colorChange(){
+    if (time[i]>dateColor) {
+    $('description').addClass('future');
+    } else if (time[i]===dateColor){
+    $('description').addClass('present');
+    }else (time[i]<dateColor) {
+    $('description')
+    }
+
+}
+
 
 var times = ["5am","6am", "7am", "8am", "9am", "10am", "11am", "12pm", "1pm", "2pm", "3pm", "4pm", "5pm", "6pm", "7pm", "8pm", "9pm",];
 var $container = $(".container");
@@ -22,6 +36,7 @@ $.each(times, function(index, value){
     $newContainer.append($newColumn3);
     $newColumn3.append(icon);
     $container.append($newContainer);
+    colorChange()
 })
 
 }
@@ -41,6 +56,7 @@ function getLocalStorage(){
     }
 }
 getLocalStorage();
+
 
 
 
