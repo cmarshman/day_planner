@@ -11,7 +11,7 @@ buildOut()
 function buildOut (){ 
 $.each(times, function(index, value){
     var $newContainer = $('<div>').addClass('row');
-    var $newColumn = $('<div>' + value + '</div>').addClass('col-sm-1 hour');
+    var $newColumn = $('<div>' + value + '</div>').addClass('col-sm-1 hour time');
     var $newColumn2 = $('<div></div>').addClass('col-sm-10 past description');
     var $newColumn3 = $('<button></button>').addClass('col-sm-1 saveBtn');
     var textareas = $('<textarea></textarea>').addClass('col-sm-12 input');
@@ -23,19 +23,27 @@ $.each(times, function(index, value){
     $newColumn3.append(icon);
     $container.append($newContainer);
 })
-getLocalStorage()
+
 }
 
 
 $('.saveBtn').click(function(){
-    var time = $(this).siblings('div.hour').text();
+    var time = $(this).siblings('div.time').text();
+    console.log(time)
     var input = $(this).siblings('div.description').children('textarea').val();
-    localStorage.setItem(time,input);
+    localStorage.setItem(time, JSON.stringify(input));
 })
 
 function getLocalStorage(){
-    $('#5am').val(localStorage.getItem('5am'));
+    var storedAnswers = JSON.parse(localStorage.getItem("times"))
+    if (storedAnswers !== null) {
+        times = storedAnswers;
+    }
 }
+getLocalStorage();
+
+
+
 
 
 })
