@@ -41,7 +41,6 @@ $(document).ready(function(){
     
     }
     
-    
     $('.saveBtn').click(function(){
         var time = $(this).siblings('div.time').text();
         console.log(time)

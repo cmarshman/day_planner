@@ -26,7 +26,7 @@ $(document).ready(function(){
     getLocalStorage();
 
     function buildOut (){ 
-    $.each(times, function(index, value){
+    $.each(times, function(value){
         var newContainer = $('<div>').addClass('row');
         var newColumn = $('<div>' + value + '</div>').addClass('col-sm-1 hour time');
         var newColumn2 = $('<div></div>').addClass('col-sm-10 description');
