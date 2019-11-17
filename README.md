@@ -5,7 +5,7 @@
 No installation is necessary
 
 ## Purpose
- The purpose of this page is to allow the user to log appointments, which stay inplace even if the page is refreshed. It will also track the date, and the color will change through the day depending on the hours passed, present hour and future hours. 
+The purpose of this page is to allow the user to log appointments, which stay inplace even if the page is refreshed. It will also track the date, and the color will change through the day depending on the hours passed, present hour and future hours. 
 
 ## Functionality
 The page will allow users to enter an appointment during the day and hour time periods, leave or refresh the page, and return to the page with the appointment still on the page. It will also change the date automaically from day to day. 
