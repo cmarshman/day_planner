@@ -6,17 +6,17 @@ $(document).ready(function(){
     var dateColor = moment().format('H');
     console.log(dateColor);
     
-    function colorChange(){
-    for (var i; i < times.length; i++) {
-        if (times[i]>dateColor) {
-        $('description').addClass('future');
-        } else if (times[i]===dateColor){
-        $('description').addClass('present');
-        } else (tims[i]<dateColor) {
-        $('description')
-        }
-    }
-    }
+    // function colorChange(){
+    // for (var i; i < times.length; i++) {
+    //     if (times[i]>dateColor) {
+    //     $('description').addClass('future');
+    //     } else if (times[i]===dateColor){
+    //     $('description').addClass('present');
+    //     } else (tims[i]<dateColor) {
+    //     $('description')
+    //     }
+    // }
+    // }
     
     
     var times = ["5am","6am", "7am", "8am", "9am", "10am", "11am", "12pm", "1pm", "2pm", "3pm", "4pm", "5pm", "6pm", "7pm", "8pm", "9pm",];
@@ -52,9 +52,7 @@ $(document).ready(function(){
     
     function getLocalStorage(){
         $('[data-index="0"]').text(JSON.parse(localStorage.getItem("5am")))
-        // if ( !== null) {
-        //     textareas = ;
-        // }
+        
     }
     getLocalStorage();
     
