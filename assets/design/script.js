@@ -51,8 +51,23 @@ $(document).ready(function(){
     })
     
     function getLocalStorage(){
-        $('[data-index="0"]').text(JSON.parse(localStorage.getItem("5am")))
-        
+        $('[data-index="0"]').text(JSON.parse(localStorage.getItem("5am")));
+        $('[data-index="1"]').text(JSON.parse(localStorage.getItem("6am")));
+        $('[data-index="2"]').text(JSON.parse(localStorage.getItem("7am")));
+        $('[data-index="3"]').text(JSON.parse(localStorage.getItem("8am")));
+        $('[data-index="4"]').text(JSON.parse(localStorage.getItem("9am")));
+        $('[data-index="5"]').text(JSON.parse(localStorage.getItem("10am")));
+        $('[data-index="6"]').text(JSON.parse(localStorage.getItem("11am")));
+        $('[data-index="7"]').text(JSON.parse(localStorage.getItem("12pm")));
+        $('[data-index="8"]').text(JSON.parse(localStorage.getItem("1pm")));
+        $('[data-index="9"]').text(JSON.parse(localStorage.getItem("2pm")));
+        $('[data-index="10"]').text(JSON.parse(localStorage.getItem("3pm")));
+        $('[data-index="11"]').text(JSON.parse(localStorage.getItem("4pm")));
+        $('[data-index="12"]').text(JSON.parse(localStorage.getItem("5pm")));
+        $('[data-index="13"]').text(JSON.parse(localStorage.getItem("6pm")));
+        $('[data-index="14"]').text(JSON.parse(localStorage.getItem("7pm")));
+        $('[data-index="15"]').text(JSON.parse(localStorage.getItem("8pm")));
+        $('[data-index="16"]').text(JSON.parse(localStorage.getItem("9pm")));
     }
     getLocalStorage();
     
