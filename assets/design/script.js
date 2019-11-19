@@ -3,19 +3,20 @@ $(document).ready(function(){
     var date = new Date ();
     date = moment().format('LL');
     dateElement.textContent = date;
-    var dateColor = moment().format('h A')
-    console.log(dateColor)
+    var dateColor = moment().format('H');
+    console.log(dateColor);
     
-    // function colorChange(){
-    //     if (time[i]>dateColor) {
-    //     $('description').addClass('future');
-    //     } else if (time[i]===dateColor){
-    //     $('description').addClass('present');
-    //     }else (time[i]<dateColor) {
-    //     $('description')
-    //     }
-    
-    // }
+    function colorChange(){
+    for (var i; i < times.length; i++) {
+        if (times[i]>dateColor) {
+        $('description').addClass('future');
+        } else if (times[i]===dateColor){
+        $('description').addClass('present');
+        } else (tims[i]<dateColor) {
+        $('description')
+        }
+    }
+    }
     
     
     var times = ["5am","6am", "7am", "8am", "9am", "10am", "11am", "12pm", "1pm", "2pm", "3pm", "4pm", "5pm", "6pm", "7pm", "8pm", "9pm",];
@@ -24,11 +25,12 @@ $(document).ready(function(){
     
     function buildOut (){ 
     $.each(times, function(index, value){
+        console.log(index)
         var $newContainer = $('<div>').addClass('row');
         var $newColumn = $('<div>' + value + '</div>').addClass('col-sm-1 hour time');
-        var $newColumn2 = $('<div></div>').addClass('col-sm-10 past description');
+        var $newColumn2 = $('<div></div>').addClass('col-sm-10 description past');
         var $newColumn3 = $('<button></button>').addClass('col-sm-1 saveBtn');
-        var textareas = $('<textarea></textarea>').addClass('col-sm-12 input');
+        var textareas = $('<textarea data-index="' + index + '"></textarea>').addClass('col-sm-12 input');
         var icon = $('<i class="far fa-save fa-3x" style="margin: auto; padding: 10px;"></i>');
         $newContainer.append($newColumn);
         $newContainer.append($newColumn2);
@@ -49,10 +51,10 @@ $(document).ready(function(){
     })
     
     function getLocalStorage(){
-        var storedAnswers = JSON.parse(localStorage.getItem("times"))
-        if (storedAnswers !== null) {
-            times = storedAnswers;
-        }
+        $('[data-index="0"]').text(JSON.parse(localStorage.getItem("5am")))
+        // if ( !== null) {
+        //     textareas = ;
+        // }
     }
     getLocalStorage();
     
