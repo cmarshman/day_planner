@@ -24,7 +24,9 @@ Github Repo: https://github.com/cmarshman/calendar
 ## Images
 
 ![Page_Opening] (assets/images/Page_Opening.png);
+
 ![Local_Storage] (assets/images/Local_Storage.png);
+
 ![Returning_to_Page] (assets/images/Returning_to_Page.png);
 
 
