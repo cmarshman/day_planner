@@ -23,11 +23,11 @@ Github Repo: https://github.com/cmarshman/calendar
 
 ## Images
 
-![Page_Opening] (assets/images/page_opening.png)
+![Page_Opening](assets/images/page_opening.png)
 
-![Local_Storage] (assets/images/local_storage.png)
+![Local_Storage](assets/images/local_storage.png)
 
-![Returning_to_Page] (assets/images/return_to_page.png)
+![Returning_to_Page](assets/images/return_to_page.png)
 
 
 ## License
