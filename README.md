@@ -23,15 +23,17 @@ Github Repo: https://github.com/cmarshman/calendar
 
 ## Images
 
-+++++++++++++++++++++++++++++++++++++++ Page Opening +++++++++++++++++++++++++++++++++++++++++++
+Page Opening +++++++++++++++++++++++++++++++++++++++ 
 ![Page_Opening](assets/images/page_opening.png)
 
-++++++++++++++++++++++++++++++++++++++ Local Storage +++++++++++++++++++++++++++++++++++++++++++
+Local Storage ++++++++++++++++++++++++++++++++++++++ 
 ![Local_Storage](assets/images/local_storage.png)
 
-++++++++++++++++++++++++++++++++++++ Returning to Page +++++++++++++++++++++++++++++++++++++++++
+Returning to Page ++++++++++++++++++++++++++++++++++++ 
 ![Returning_to_Page](assets/images/return_to_page.png)
 
+Favicon +++++++++++++++++++++++++++++++++++++ 
+![lion_favicon](assets/images/lion_favicon.png)
 
 ## License
 MIT License
