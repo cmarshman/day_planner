@@ -77,6 +77,3 @@ $(document).ready(function() {
     }
     getLocalStorage();
   })
-
-
-
