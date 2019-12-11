@@ -23,16 +23,16 @@ Github Repo: https://github.com/cmarshman/calendar
 
 ## Images
 
-Page Opening +++++++++++++++++++++++++++++++++++++++ 
+Page Opening +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 ![Page_Opening](assets/images/page_opening.png)
 
-Local Storage ++++++++++++++++++++++++++++++++++++++ 
+Local Storage ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 ![Local_Storage](assets/images/local_storage.png)
 
-Returning to Page ++++++++++++++++++++++++++++++++++++ 
+Returning to Page ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 ![Returning_to_Page](assets/images/return_to_page.png)
 
-Hourly Moments Color Change ++++++++++++++++++++++++++++++++++++
+Hourly Moments Color Change ++++++++++++++++++++++++++++++++++++++++++++++++++++
 ![Moments_Color_Change](assets/images/moments_color_change.png)
 
 Favicon ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
