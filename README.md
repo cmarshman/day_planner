@@ -35,7 +35,7 @@ Returning to Page ++++++++++++++++++++++++++++++++++++
 Hourly Moments Color Change ++++++++++++++++++++++++++++++++++++
 ![Moments_Color_Change](assets/images/moments_color_change.png)
 
-Favicon ++++++++++++++++++++++++++++++++++++++++++ 
+Favicon +++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 ![lion_favicon](assets/images/lion_favicon.png)
 
 ## License
