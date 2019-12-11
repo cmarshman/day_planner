@@ -1,4 +1,4 @@
-# calendar
+# Day Planner
 
 ## Installation
 
