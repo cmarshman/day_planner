@@ -32,7 +32,10 @@ Local Storage ++++++++++++++++++++++++++++++++++++++
 Returning to Page ++++++++++++++++++++++++++++++++++++ 
 ![Returning_to_Page](assets/images/return_to_page.png)
 
-Favicon +++++++++++++++++++++++++++++++++++++ 
+Hourly Moments Color Change ++++++++++++++++++++++++++++++++++++
+![Moments_Color_Change](assets/images/moments_color_change.png)
+
+Favicon ++++++++++++++++++++++++++++++++++++++++++ 
 ![lion_favicon](assets/images/lion_favicon.png)
 
 ## License
