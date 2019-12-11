@@ -17,7 +17,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## Links
-Page URL: https://cmarshman.github.io/calendar/index.html
+Page URL: https://cmarshman.github.io/day_planner/index.html
 
 Github Repo: https://github.com/cmarshman/calendar
 
